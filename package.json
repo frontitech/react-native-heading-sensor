@@ -1,12 +1,12 @@
 {
-  "name": "react-native-device-heading",
+  "name": "react-native-heading-sensor",
   "version": "1.1.0",
   "description": "Get device heading information for iOS and Android",
   "main": "deviceheading.js",
   "typings": "./deviceheading.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reinosutisno/react-native-device-heading.git"
+    "url": "git+https://github.com/frontitech/react-native-heading-sensor.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,7 +29,7 @@
     "react-native": "*"
   },
   "bugs": {
-    "url": "https://github.com/reinosutisno/react-native-device-heading/issues"
+    "url": "https://github.com/frontitech/react-native-heading-sensor/issues"
   },
-  "homepage": "https://github.com/reinosutisno/react-native-device-heading#readme"
+  "homepage": "https://github.com/frontitech/react-native-heading-sensor#readme"
 }

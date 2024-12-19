@@ -1,4 +1,4 @@
-declare module 'react-native-device-heading' {
+declare module 'react-native-heading-sensor' {
   export const start: (
     threshold: number,
     callback: (heading: number) => void

@@ -1,4 +1,4 @@
-# react-native-device-heading
+# react-native-heading-sensor
 
 ## TOC
 
@@ -11,13 +11,13 @@
 Using npm:
 
 ```shell
-npm install --save react-native-device-heading
+npm install --save react-native-heading-sensor
 ```
 
 or using yarn:
 
 ```shell
-yarn add react-native-device-heading
+yarn add react-native-heading-sensor
 ```
 
 ## Linking (For React Native <= 0.59 only)
@@ -27,7 +27,7 @@ yarn add react-native-device-heading
 ### Auto
 
 ```shell
-react-native link react-native-device-info
+react-native link react-native-heading-sensor
 ```
 
 For iOS via CocoaPods
@@ -45,7 +45,7 @@ pod install
 Add the following lines to your build targets in your `Podfile`
 
 ```
-pod 'RNDeviceHeading', :path => '../node_modules/react-native-device-heading'
+pod 'RNDeviceHeading', :path => '../node_modules/react-native-heading-sensor'
 ```
 
 Then run `pod install`
@@ -59,7 +59,7 @@ In XCode, in the project navigator:
 
 1. Right click `Libraries`
 2. `Add Files to [your project's name]`
-3. Go to `node_modules` ➜ `react-native-device-heading`
+3. Go to `node_modules` ➜ `react-native-heading-sensor`
 4. Add the file `RNDeviceHeading.xcodeproj`
 5. Add `libRNDeviceHeading.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 6. Run your project (`Cmd+R`)
@@ -76,12 +76,12 @@ In XCode, in the project navigator:
 
 2. Append the following lines to `android/settings.gradle`:
    ```
-   include ':react-native-device-heading'
-   project(':react-native-device-heading').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-device-heading/android')
+   include ':react-native-heading-sensor'
+   project(':react-native-heading-sensor').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-heading-sensor/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
-     compile project(':react-native-device-heading')
+     compile project(':react-native-heading-sensor')
    ```
    </details>
 
@@ -89,7 +89,7 @@ In XCode, in the project navigator:
 
 ```javascript
 import React, { useState, useEffect } from 'react';
-import RNDeviceHeading from 'react-native-device-heading';
+import RNDeviceHeading from 'react-native-heading-sensor';
 
 ...
   const degreesUpdateRate = 1; //number of degrees changed before callback is triggered
